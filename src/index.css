@@ -6,7 +6,7 @@
 @layer base {
   body {
     font-family: 'Comfortaa', sans-serif;
-    background-image: url('/bg flowers.jpg');
+    background-image: url('/bluebg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
