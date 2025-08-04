@@ -71,23 +71,7 @@ const AppContent: React.FC = () => {
   console.log('🎨 App: Rendering main application interface');
 
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Bolt Badge */}
-      <div className="bolt-badge-container">
-        <a 
-          href="https://bolt.new/?rid=os72mi" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="bolt-badge-link"
-        >
-          <img 
-            src="https://storage.bolt.army/white_circle_360x360.png" 
-            alt="Built with Bolt.new badge" 
-            className="bolt-badge bolt-badge-intro"
-            onAnimationEnd={(e) => e.currentTarget.classList.add('animated')}
-          />
-        </a>
-      </div>
+    
 
       {/* Main Content Box */}
       <div className="bg-background rounded-xl soft-shadow mx-auto max-w-6xl my-12 overflow-hidden flex flex-col flex-grow">
