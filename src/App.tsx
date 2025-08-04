@@ -71,7 +71,7 @@ const AppContent: React.FC = () => {
   console.log('🎨 App: Rendering main application interface');
 
   return (
-    
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex flex-col">
 
       {/* Main Content Box */}
       <div className="bg-background rounded-xl soft-shadow mx-auto max-w-6xl my-12 overflow-hidden flex flex-col flex-grow">
